@@ -10,7 +10,47 @@
  scroll-behavior: smooth;
 }
 
-.banner-heading {
- font-size: 95px !important;
+.carousel-item {
+ height: 100vh;
+ min-height: 300px;
+ background: no-repeat scroll center scroll;
+ background-size: cover;
+}
+
+.carousel-item::before {
+ content: "";
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+}
+
+.carousel-caption {
+ margin: 170px;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+.carousel-caption h5 {
+ font-size: 95px;
  font-weight: 700;
+ border: solid 1px #fff;
+}
+
+.carousel-caption p {
+ font-size: 18px;
+}
+
+.slider-btn {
+ margin-top: 30px;
+ justify-content: center;
+}
+
+.slider-btn .btn {
+ padding: 0.7rem 1.5rem;
+ font-size: 1rem;
+ margin-right: 15px;
+ border: solid 1px #fff;
 }
