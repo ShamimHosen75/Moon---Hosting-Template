@@ -54,3 +54,37 @@
  margin-right: 15px;
  border: solid 1px #fff;
 }
+
+.Section-title {
+ text-align: center;
+}
+.Section-title h1 {
+ font-size: 40px;
+ font-weight: 700;
+ letter-spacing: 5px;
+ text-transform: uppercase;
+}
+.Section-title p {
+ font-size: 14px;
+ font-weight: 400;
+ text-align: center;
+ vertical-align: baseline;
+}
+
+.card-body {
+ background-color: #1a1a1a;
+}
+.card img {
+ height: 225px;
+ width: 413px;
+}
+
+.card-body h3 {
+ color: #fff;
+ font-size: 20px;
+ font-weight: 700;
+}
+.card-body p {
+ color: rgb(196, 195, 195);
+ text-align: justify;
+}
