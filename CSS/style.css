@@ -34,7 +34,7 @@
 }
 
 .carousel-caption h5 {
- font-size: 95px;
+ font-size: 75px;
  font-weight: 700;
  border: solid 1px #fff;
 }
@@ -57,6 +57,13 @@
 
 .Section-title {
  text-align: center;
+}
+.divider {
+ width: 150px;
+ height: 3px;
+ background-color: #0d6efd;
+ display: inline-block;
+ margin-bottom: 10px;
 }
 .Section-title h1 {
  font-size: 40px;
@@ -87,4 +94,24 @@
 .card-body p {
  color: rgb(196, 195, 195);
  text-align: justify;
+}
+
+.inner {
+ overflow: hidden;
+}
+
+.inner img {
+ transition: all 1.5s ease;
+}
+
+.inner:hover img {
+ transform: scale(1.5);
+}
+
+.bg-img {
+ background-image: url("../images/Pricing.png");
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+ background: no-repeat scroll center scroll;
 }
