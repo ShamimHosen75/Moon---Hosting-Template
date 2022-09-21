@@ -16,43 +16,6 @@
   />
  </head>
  <body>
-  <!-- Navbar Start Here  -->
-  <nav class="navbar navbar-expand-lg bg-light">
-   <div class="container-fluid">
-    <button
-     class="navbar-toggler"
-     type="button"
-     data-bs-toggle="collapse"
-     data-bs-target="#navbarTogglerDemo01"
-     aria-controls="navbarTogglerDemo01"
-     aria-expanded="false"
-     aria-label="Toggle navigation"
-    >
-     <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-     <a class="navbar-brand" href="#">MoonHost</a>
-     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-       <a class="nav-link active" aria-current="page" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="#about">About US</a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="#pricing">Pricing</a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="#services">Services</a>
-      </li>
-      <li class="nav-item">
-       <a class="nav-link" href="#contact">Contact</a>
-      </li>
-     </ul>
-    </div>
-   </div>
-  </nav>
-
   <!-- Slider Section Started Here  -->
   <header>
    <div
@@ -150,9 +113,11 @@
    <div class="Section-title pt-5 pb-5">
     <h1 class="text-white">WE ARE ONEHOST</h1>
     <span class="divider"></span>
-    <p class="text-white">
+    <p class="text-white lh-lg">
      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-     tempor incididunt ut labore et dolore magna aliqua.
+     tempor incididunt ut labore et dolore magna aliqua. <br />
+     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+     aliquip ex ea commodo consequat.
     </p>
    </div>
    <!-- Card  -->
@@ -208,15 +173,17 @@
   </section>
   <!-- About Section Ended Here  -->
 
-  <!-- Service Section Started Here  -->
+  <!-- Pricing Section Started Here  -->
   <section class="bg-img">
    <div class="container">
     <div class="Section-title pt-5 pb-5">
      <h1 class="text-white">Our Pricing</h1>
      <span class="divider"></span>
-     <p class="text-white">
+     <p class="text-white lh-lg">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+      tempor incididunt ut labore et dolore magna aliqua. <br />
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat.
      </p>
     </div>
 
@@ -312,11 +279,117 @@
     </div>
    </div>
   </section>
-  <!-- Services Section Ended Here  -->
 
-  <!-- Testimonial Section Started Here  -->
+  <!-- Contact US Section Stated Here  -->
+  <section class="bg-dark">
+   <div class="container pb-5">
+    <div class="row">
+     <div class="col-md-12">
+      <div class="Section-title pt-5 pb-5">
+       <h1 class="text-white">CONTACT US</h1>
+       <span class="divider"></span>
+       <p class="text-white lh-lg">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. <br />
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-md-4">
+      <i class="fa fa-map-marker fa-3x text-primary" aria-hidden="true"></i>
+      <h3 class="text-white">Location</h3>
+      <p class="text-white">Habiganj, Sylhet, Bangladesh</p>
+      <i class="fa fa-phone fa-3x text-primary" aria-hidden="true"></i>
+      <h3 class="text-white">Call US</h3>
+      <p class="text-white">+880 1786 473796</p>
+      <i class="fa fa-envelope fa-3x text-primary" aria-hidden="true"></i>
+      <h3 class="text-white">Email</h3>
+      <p class="text-white">billal.shamim75@gmail.com</p>
+     </div>
 
-  <!-- Testimonial Section Ended Here  -->
+     <div class="col-md-8">
+      <div class="contact-form">
+       <div class="row">
+        <div class="col-md-8">
+         <span id="lblResponse" class="tab-content"></span>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-md-6">
+         <input
+          type="tbName"
+          type="text"
+          id="tbName"
+          class="form-control my-2"
+          placeholder="Name"
+         />
+        </div>
+        <br />
+        <div class="col-md-6">
+         <input
+          type="tbEmail"
+          type="text"
+          id="tbEmail"
+          class="form-control my-2"
+          placeholder="Email"
+         />
+        </div>
+        <br />
+       </div>
+       <div class="row">
+        <div class="col-md-12">
+         <input
+          type="tbSubject"
+          type="text"
+          id="tbSubject"
+          class="form-control my-2"
+          placeholder="Subject"
+         />
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-md-12">
+         <textarea
+          name="tbMessage"
+          rows="10"
+          cols="20"
+          id="tbMessage"
+          cols="30"
+          rows="10"
+          class="form-control my-2"
+          placeholder="Message"
+         ></textarea>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-md-12">
+         <input
+          type="submit"
+          name="btnSendMsg"
+          value="SendMessage"
+          id="btnSendMsg"
+          type="submit"
+          class="btn btn-lg btn-submit bg-primary text-white btn-outline-primary"
+         />
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Contact US Section Ended Here  -->
+
+  <!-- Footer Section Start From Here  -->
+  <footer>
+   <div class="text-center bg-dark text-white">
+    <p>&#169; 2022 Developed by Shamim Hosen | All Rights Reserved.</p>
+   </div>
+  </footer>
+  <!-- Footer Section Ended From Here  -->
 
   <!-- Bootstrap JS Link  -->
   <script
