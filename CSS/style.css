@@ -112,6 +112,15 @@
  background-image: url("../images/Pricing.png");
  background-size: cover;
  background-position: center;
- height: 100vh;
+ height: fit-content;
  background: no-repeat scroll center scroll;
+}
+
+.btn-1 {
+ background-color: #0d6efd;
+ color: #fff;
+ outline: none;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
 }
